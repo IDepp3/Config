@@ -12,6 +12,7 @@ set tabstop=2 softtabstop=2
 set shiftwidth=2
 
 let mapleader=" "
+
 "so ~/.vim/plugins.vim
 "so ~/.vim/plugin-config.vim
 so ~/.vim/maps.vim

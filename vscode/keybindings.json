@@ -1,21 +1,21 @@
 [
 	{
-		"key" : "ctrl+alt+p",
+		"key" : "alt+p",
 		"command" : "explorer.newFolder"
 	},
 	{
 		"key" : "alt+f",
 		"command" : "explorer.newFile"
-	},
-	{
+	}
+/* 	{
 		"key" : "ctrl+k",
 		"command" : "workbench.action.nextEditor"
 	},
 	{
 		"key" : "ctrl+j",
 		"command" : "workbench.action.previousEditor"
-	},
-	{
+	}, */
+/* 	{
         "key": "tab",
         "command" : "tab",
         "when" : "editorTextFocus && !editorTabMovesFocus"
@@ -24,6 +24,6 @@
         "key" : "shift+tab",
         "command" : "outdent",
         "when": "editorTextFocus && !editorTabMovesFocus"
-    }
+	} */
 ] 
 		
