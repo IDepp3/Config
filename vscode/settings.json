@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "Dark Horizon",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.fontWeight": "bold",
+    "editor.fontFamily": "Fira Code",
+    "editor.renderLineHighlight": "all",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "vim.insertModeKeyBindings": [
+        {
+            "before" : ["j", "k"],
+            "after" : ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before" : ["<leader>", "w"],
+            "commands" : ["workbench.action.files.save"]
+        },
+        {
+            "before" : ["<C>", "j"],
+            "after" : ["10","<C-e>"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "php.executablePath": "/opt/lampp/bin/php",
+}
