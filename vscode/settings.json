@@ -4,7 +4,7 @@
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "editor.fontWeight": "bold",
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.renderLineHighlight": "all",
   "editor.fontSize": 15,
   "editor.fontLigatures": true,
@@ -19,6 +19,10 @@
     {
       "before": ["<leader>", "w"],
       "commands": ["workbench.action.files.save"]
+    },
+    {
+        "before" : ["<leader>", "q"],
+        "commands" : ["workbench.action.closeActiveEditor"]
     },
     {
       "before": ["<tab>"],
