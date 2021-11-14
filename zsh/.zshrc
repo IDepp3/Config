@@ -8,7 +8,7 @@ export ZSH="/home/depp3/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="wedisagree"
+ZSH_THEME="zhann"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -99,3 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# ALIAS
+
+# EXPORTS
+export PATH=/home/depp3/Depp3/programs/maven/apache-maven-3.8.3/bin:$PATH
+export PATH=/home/depp3/Depp3/programs/Tomcat/apache-tomcat-9.0.54/bin:$PATH

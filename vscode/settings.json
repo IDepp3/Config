@@ -4,7 +4,7 @@
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "editor.fontWeight": "bold",
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Fira Code",
   "editor.renderLineHighlight": "all",
   "editor.fontSize": 15,
   "editor.fontLigatures": true,
